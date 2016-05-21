@@ -1,0 +1,25 @@
+﻿Build started 25.04.2016 1:24:27.
+     1>Project "c:\Users\Валерий\documents\visual studio 2010\Projects\Crypto\Lab2DLL\Lab2DLL\Lab2DLL.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Lab2DLL.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\валерий\documents\visual studio 2010\Projects\Crypto\Lab2DLL\Debug\Lab2DLL.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Lab2DLL.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\валерий\documents\visual studio 2010\Projects\Crypto\Lab2DLL\Debug\Lab2DLL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\валерий\documents\visual studio 2010\Projects\Crypto\Lab2DLL\Debug\Lab2DLL.lib" /MACHINE:X86 /DLL Debug\dllmain.obj
+         Debug\Lab2DLL.obj
+         Debug\stdafx.obj
+     1>dllmain.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+            Creating library c:\users\валерий\documents\visual studio 2010\Projects\Crypto\Lab2DLL\Debug\Lab2DLL.lib and object c:\users\валерий\documents\visual studio 2010\Projects\Crypto\Lab2DLL\Debug\Lab2DLL.exp
+         Lab2DLL.vcxproj -> c:\users\валерий\documents\visual studio 2010\Projects\Crypto\Lab2DLL\Debug\Lab2DLL.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\users\валерий\documents\visual studio 2010\Projects\Crypto\Lab2DLL\Debug\Lab2DLL.dll;#2" /manifest Debug\Lab2DLL.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Lab2DLL.unsuccessfulbuild".
+         Touching "Debug\Lab2DLL.lastbuildstate".
+     1>Done Building Project "c:\Users\Валерий\documents\visual studio 2010\Projects\Crypto\Lab2DLL\Lab2DLL\Lab2DLL.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.11

@@ -1,0 +1,36 @@
+﻿Build started 25.04.2016 11:04:49.
+     1>Project "C:\Users\Валерий\documents\visual studio 2010\Projects\Crypto\Lab2DLL\Lab2DLL\Lab2DLL.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Lab2DLL.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LAB2DLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Lab2DLL.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Lab2DLL.cpp
+         Lab2DLL.cpp
+     1>c:\users\валерий\documents\visual studio 2010\projects\crypto\lab2dll\lab2dll\Lab2DLL.h(33): warning C4091: '__declspec(dllexport)' : ignored on left of 'BigInt' when no variable is declared
+     1>Lab2DLL.cpp(798): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>Lab2DLL.cpp(800): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>Lab2DLL.cpp(812): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>Lab2DLL.cpp(814): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Валерий\documents\visual studio 2010\Projects\Crypto\Lab2DLL\Release\Lab2DLL.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Lab2DLL.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Валерий\documents\visual studio 2010\Projects\Crypto\Lab2DLL\Release\Lab2DLL.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Валерий\documents\visual studio 2010\Projects\Crypto\Lab2DLL\Release\Lab2DLL.lib" /MACHINE:X86 /DLL Release\dllmain.obj
+         Release\Lab2DLL.obj
+         Release\stdafx.obj
+            Creating library C:\Users\Валерий\documents\visual studio 2010\Projects\Crypto\Lab2DLL\Release\Lab2DLL.lib and object C:\Users\Валерий\documents\visual studio 2010\Projects\Crypto\Lab2DLL\Release\Lab2DLL.exp
+         Generating code
+         Finished generating code
+         Lab2DLL.vcxproj -> C:\Users\Валерий\documents\visual studio 2010\Projects\Crypto\Lab2DLL\Release\Lab2DLL.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Валерий\documents\visual studio 2010\Projects\Crypto\Lab2DLL\Release\Lab2DLL.dll;#2" /manifest Release\Lab2DLL.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Lab2DLL.unsuccessfulbuild".
+         Touching "Release\Lab2DLL.lastbuildstate".
+     1>Done Building Project "C:\Users\Валерий\documents\visual studio 2010\Projects\Crypto\Lab2DLL\Lab2DLL\Lab2DLL.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.84

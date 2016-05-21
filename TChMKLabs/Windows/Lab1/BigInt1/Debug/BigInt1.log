@@ -1,0 +1,20 @@
+﻿Build started 03.04.2016 20:24:02.
+     1>Project "c:\Users\Валерий\documents\visual studio 2010\Projects\Crypto\BigInt1\BigInt1\BigInt1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\BigInt1.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\валерий\documents\visual studio 2010\Projects\Crypto\BigInt1\Debug\BigInt1.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BigInt1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\валерий\documents\visual studio 2010\Projects\Crypto\BigInt1\Debug\BigInt1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\валерий\documents\visual studio 2010\Projects\Crypto\BigInt1\Debug\BigInt1.lib" /MACHINE:X86 Debug\BigInt.obj
+     1>BigInt.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         BigInt1.vcxproj -> c:\users\валерий\documents\visual studio 2010\Projects\Crypto\BigInt1\Debug\BigInt1.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\users\валерий\documents\visual studio 2010\Projects\Crypto\BigInt1\Debug\BigInt1.exe;#1" /manifest Debug\BigInt1.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\BigInt1.unsuccessfulbuild".
+         Touching "Debug\BigInt1.lastbuildstate".
+     1>Done Building Project "c:\Users\Валерий\documents\visual studio 2010\Projects\Crypto\BigInt1\BigInt1\BigInt1.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.84
