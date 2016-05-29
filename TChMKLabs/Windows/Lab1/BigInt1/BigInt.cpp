@@ -721,6 +721,11 @@ BigInt pow_mod(BigInt a, BigInt b, BigInt c)
 
 int main(int argc, char* argv[])
 {
+	if (argc < 5)
+	{
+		printf("More parameters are required.\n");
+		return 0;
+	}
 	FILE * f1, *f2, *f3, *f;
 	int operate, binArg = -1; // 1 - sum, 2 - sub, 3 - mul, 4 - div, 5 - mod, 6 - power
 	char binary[] = "-b";
